@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-04T17:19:50 GST" name="SauceDemo Suite" finished-at="2025-09-04T17:23:15 GST" duration-ms="205395">
+    <groups>
+    </groups>
+    <test started-at="2025-09-04T17:19:50 GST" name="Login Tests" finished-at="2025-09-04T17:23:15 GST" duration-ms="205395">
+      <class name="com.saucedemo.tests.CheckoutProcessTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:13 GST" name="setup" finished-at="2025-09-04T17:22:17 GST" duration-ms="3322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc010VerifyUserWithBlankFirstName(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc010VerifyUserWithBlankFirstName(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:17 GST" name="tc010VerifyUserWithBlankFirstName" data-provider="excelData" finished-at="2025-09-04T17:22:19 GST" duration-ms="1973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithBlankFirstName, Page_Title=, FirstName=, PostalCode=789654, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc010VerifyUserWithBlankFirstName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:19 GST" name="tearDown" finished-at="2025-09-04T17:22:19 GST" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc010VerifyUserWithBlankFirstName status=SUCCESS method=CheckoutProcessTest.tc010VerifyUserWithBlankFirstName(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:19 GST" name="setup" finished-at="2025-09-04T17:22:22 GST" duration-ms="3409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc020VerifyUserWithBlankLastName(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc020VerifyUserWithBlankLastName(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:22 GST" name="tc020VerifyUserWithBlankLastName" data-provider="excelData" finished-at="2025-09-04T17:22:24 GST" duration-ms="1898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithBlankLastName, Page_Title=, FirstName=Kavin, PostalCode=789654, LastName=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc020VerifyUserWithBlankLastName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:24 GST" name="tearDown" finished-at="2025-09-04T17:22:25 GST" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc020VerifyUserWithBlankLastName status=SUCCESS method=CheckoutProcessTest.tc020VerifyUserWithBlankLastName(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:25 GST" name="setup" finished-at="2025-09-04T17:22:28 GST" duration-ms="3338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc030VerifyUserWithBlankPostalCodeName(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc030VerifyUserWithBlankPostalCodeName(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:28 GST" name="tc030VerifyUserWithBlankPostalCodeName" data-provider="excelData" finished-at="2025-09-04T17:22:30 GST" duration-ms="2015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithBlankPostalCodeName, Page_Title=, FirstName=Veena, PostalCode=, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc030VerifyUserWithBlankPostalCodeName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:30 GST" name="tearDown" finished-at="2025-09-04T17:22:30 GST" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc030VerifyUserWithBlankPostalCodeName status=SUCCESS method=CheckoutProcessTest.tc030VerifyUserWithBlankPostalCodeName(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:30 GST" name="setup" finished-at="2025-09-04T17:22:34 GST" duration-ms="3663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc040VerifyUserWithValidInfo(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc040VerifyUserWithValidInfo(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:34 GST" name="tc040VerifyUserWithValidInfo" data-provider="excelData" finished-at="2025-09-04T17:22:36 GST" duration-ms="2244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithValidInfo, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc040VerifyUserWithValidInfo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:36 GST" name="tearDown" finished-at="2025-09-04T17:22:37 GST" duration-ms="399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc040VerifyUserWithValidInfo status=SUCCESS method=CheckoutProcessTest.tc040VerifyUserWithValidInfo(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:37 GST" name="setup" finished-at="2025-09-04T17:22:40 GST" duration-ms="3466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc050VerifyCancelFromUserInfo(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc050VerifyCancelFromUserInfo(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:40 GST" name="tc050VerifyCancelFromUserInfo" data-provider="excelData" finished-at="2025-09-04T17:22:42 GST" duration-ms="2113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFromUserInfo, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc050VerifyCancelFromUserInfo -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:42 GST" name="tearDown" finished-at="2025-09-04T17:22:43 GST" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc050VerifyCancelFromUserInfo status=SUCCESS method=CheckoutProcessTest.tc050VerifyCancelFromUserInfo(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:43 GST" name="setup" finished-at="2025-09-04T17:22:46 GST" duration-ms="3291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc060VerifyItemAndPriceDetails(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc060VerifyItemAndPriceDetails(java.util.HashMap)[pri:5, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:46 GST" name="tc060VerifyItemAndPriceDetails" data-provider="excelData" finished-at="2025-09-04T17:22:48 GST" duration-ms="2336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc060VerifyItemAndPriceDetails, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc060VerifyItemAndPriceDetails -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:48 GST" name="tearDown" finished-at="2025-09-04T17:22:49 GST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc060VerifyItemAndPriceDetails status=SUCCESS method=CheckoutProcessTest.tc060VerifyItemAndPriceDetails(java.util.HashMap)[pri:5, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:49 GST" name="setup" finished-at="2025-09-04T17:22:52 GST" duration-ms="3296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc070VerifyCancelFromCheckoutOverview(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc070VerifyCancelFromCheckoutOverview(java.util.HashMap)[pri:6, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:52 GST" name="tc070VerifyCancelFromCheckoutOverview" data-provider="excelData" finished-at="2025-09-04T17:22:54 GST" duration-ms="2338" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc070VerifyCancelFromCheckoutOverview, Page_Title=Products, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc070VerifyCancelFromCheckoutOverview -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:54 GST" name="tearDown" finished-at="2025-09-04T17:22:55 GST" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc070VerifyCancelFromCheckoutOverview status=SUCCESS method=CheckoutProcessTest.tc070VerifyCancelFromCheckoutOverview(java.util.HashMap)[pri:6, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:55 GST" name="setup" finished-at="2025-09-04T17:22:58 GST" duration-ms="3264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc080VerifyFinishFromCheckoutOverview(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc080VerifyFinishFromCheckoutOverview(java.util.HashMap)[pri:7, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:22:58 GST" name="tc080VerifyFinishFromCheckoutOverview" data-provider="excelData" finished-at="2025-09-04T17:23:01 GST" duration-ms="3046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc080VerifyFinishFromCheckoutOverview, Page_Title=, FirstName=Veena, PostalCode=789646, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc080VerifyFinishFromCheckoutOverview -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:01 GST" name="tearDown" finished-at="2025-09-04T17:23:02 GST" duration-ms="496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc080VerifyFinishFromCheckoutOverview status=SUCCESS method=CheckoutProcessTest.tc080VerifyFinishFromCheckoutOverview(java.util.HashMap)[pri:7, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:02 GST" name="setup" finished-at="2025-09-04T17:23:05 GST" duration-ms="3658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc090VerifyCheckOutMessageFromCheckoutFinishOrder(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc090VerifyCheckOutMessageFromCheckoutFinishOrder(java.util.HashMap)[pri:8, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:05 GST" name="tc090VerifyCheckOutMessageFromCheckoutFinishOrder" data-provider="excelData" finished-at="2025-09-04T17:23:08 GST" duration-ms="2905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc090VerifyCheckOutMessageFromCheckoutFinishOrder, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc090VerifyCheckOutMessageFromCheckoutFinishOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:08 GST" name="tearDown" finished-at="2025-09-04T17:23:09 GST" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc090VerifyCheckOutMessageFromCheckoutFinishOrder status=SUCCESS method=CheckoutProcessTest.tc090VerifyCheckOutMessageFromCheckoutFinishOrder(java.util.HashMap)[pri:8, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:09 GST" name="setup" finished-at="2025-09-04T17:23:12 GST" duration-ms="3629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CheckoutProcessTest.tc100VerifyBackHomeFromCheckoutFinishOrder(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc100VerifyBackHomeFromCheckoutFinishOrder(java.util.HashMap)[pri:9, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:12 GST" name="tc100VerifyBackHomeFromCheckoutFinishOrder" data-provider="excelData" finished-at="2025-09-04T17:23:15 GST" duration-ms="2694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc100VerifyBackHomeFromCheckoutFinishOrder, Page_Title=Products, FirstName=Veena, PostalCode=789652, LastName=Kavin, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc100VerifyBackHomeFromCheckoutFinishOrder -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314]" started-at="2025-09-04T17:23:15 GST" name="tearDown" finished-at="2025-09-04T17:23:15 GST" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc100VerifyBackHomeFromCheckoutFinishOrder status=SUCCESS method=CheckoutProcessTest.tc100VerifyBackHomeFromCheckoutFinishOrder(java.util.HashMap)[pri:9, instance:com.saucedemo.tests.CheckoutProcessTest@75f95314] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CheckoutProcessTest -->
+      <class name="com.saucedemo.tests.ProductTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:45 GST" name="setup" finished-at="2025-09-04T17:20:48 GST" duration-ms="3219" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc010VerifyCartBadgeUpdates(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc010VerifyCartBadgeUpdates(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:48 GST" name="tc010VerifyCartBadgeUpdates" data-provider="excelData" finished-at="2025-09-04T17:20:49 GST" duration-ms="1151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyCartBadgeUpdates, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc010VerifyCartBadgeUpdates -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:49 GST" name="tearDown" finished-at="2025-09-04T17:20:49 GST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc010VerifyCartBadgeUpdates status=SUCCESS method=ProductTest.tc010VerifyCartBadgeUpdates(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:49 GST" name="setup" finished-at="2025-09-04T17:20:53 GST" duration-ms="3210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc020VerifyRemoveFromProductPage(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc020VerifyRemoveFromProductPage(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:53 GST" name="tc020VerifyRemoveFromProductPage" data-provider="excelData" finished-at="2025-09-04T17:20:54 GST" duration-ms="1353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveFromProductPage, Page_Title=Products, Sort_Type=, Item_Operations=Remove|Add to cart, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc020VerifyRemoveFromProductPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:54 GST" name="tearDown" finished-at="2025-09-04T17:20:54 GST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc020VerifyRemoveFromProductPage status=SUCCESS method=ProductTest.tc020VerifyRemoveFromProductPage(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:54 GST" name="setup" finished-at="2025-09-04T17:20:58 GST" duration-ms="3223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc030VerifyProductDetailPage(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc030VerifyProductDetailPage(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:58 GST" name="tc030VerifyProductDetailPage" data-provider="excelData" finished-at="2025-09-04T17:20:59 GST" duration-ms="1391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyProductDetailPage, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc030VerifyProductDetailPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:20:59 GST" name="tearDown" finished-at="2025-09-04T17:20:59 GST" duration-ms="436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc030VerifyProductDetailPage status=SUCCESS method=ProductTest.tc030VerifyProductDetailPage(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:00 GST" name="setup" finished-at="2025-09-04T17:21:02 GST" duration-ms="2487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc040VerifyBackToProduct(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc040VerifyBackToProduct(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:02 GST" name="tc040VerifyBackToProduct" data-provider="excelData" finished-at="2025-09-04T17:21:04 GST" duration-ms="2279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyBackToProduct, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc040VerifyBackToProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:04 GST" name="tearDown" finished-at="2025-09-04T17:21:05 GST" duration-ms="501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc040VerifyBackToProduct status=SUCCESS method=ProductTest.tc040VerifyBackToProduct(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:05 GST" name="setup" finished-at="2025-09-04T17:21:08 GST" duration-ms="3386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc050verifySortingByNameAZ(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc050verifySortingByNameAZ(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:08 GST" name="tc050verifySortingByNameAZ" data-provider="excelData" finished-at="2025-09-04T17:21:09 GST" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=Products, Sort_Type=az, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc050verifySortingByNameAZ -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:09 GST" name="tearDown" finished-at="2025-09-04T17:21:10 GST" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc050verifySortingByNameAZ status=SUCCESS method=ProductTest.tc050verifySortingByNameAZ(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:10 GST" name="setup" finished-at="2025-09-04T17:21:13 GST" duration-ms="3148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc060verifySortingByNameZA(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc060verifySortingByNameZA(java.util.HashMap)[pri:5, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:13 GST" name="tc060verifySortingByNameZA" data-provider="excelData" finished-at="2025-09-04T17:21:14 GST" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=Products, Sort_Type=za, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc060verifySortingByNameZA -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:14 GST" name="tearDown" finished-at="2025-09-04T17:21:14 GST" duration-ms="326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc060verifySortingByNameZA status=SUCCESS method=ProductTest.tc060verifySortingByNameZA(java.util.HashMap)[pri:5, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:14 GST" name="setup" finished-at="2025-09-04T17:21:18 GST" duration-ms="3210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc070verifySortingByPriceLowToHigh(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc070verifySortingByPriceLowToHigh(java.util.HashMap)[pri:6, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:18 GST" name="tc070verifySortingByPriceLowToHigh" data-provider="excelData" finished-at="2025-09-04T17:21:19 GST" duration-ms="1027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Page_Title=Products, Sort_Type=lohi, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc070verifySortingByPriceLowToHigh -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:19 GST" name="tearDown" finished-at="2025-09-04T17:21:19 GST" duration-ms="331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc070verifySortingByPriceLowToHigh status=SUCCESS method=ProductTest.tc070verifySortingByPriceLowToHigh(java.util.HashMap)[pri:6, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:19 GST" name="setup" finished-at="2025-09-04T17:21:21 GST" duration-ms="2412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.ProductTest.tc080verifySortingByPriceHighToLow(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc080verifySortingByPriceHighToLow(java.util.HashMap)[pri:7, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:21 GST" name="tc080verifySortingByPriceHighToLow" data-provider="excelData" finished-at="2025-09-04T17:21:23 GST" duration-ms="1934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Page_Title=Products, Sort_Type=hilo, Item_Operations=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc080verifySortingByPriceHighToLow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.ProductTest@497486b3]" started-at="2025-09-04T17:21:23 GST" name="tearDown" finished-at="2025-09-04T17:21:24 GST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc080verifySortingByPriceHighToLow status=SUCCESS method=ProductTest.tc080verifySortingByPriceHighToLow(java.util.HashMap)[pri:7, instance:com.saucedemo.tests.ProductTest@497486b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.ProductTest -->
+      <class name="com.saucedemo.tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:19:50 GST" name="setupReport" finished-at="2025-09-04T17:19:50 GST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:19:52 GST" name="setup" finished-at="2025-09-04T17:19:57 GST" duration-ms="4924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc010LoginSuiteWithValidCredential(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc010LoginSuiteWithValidCredential(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:19:57 GST" name="tc010LoginSuiteWithValidCredential" data-provider="excelData" finished-at="2025-09-04T17:19:57 GST" duration-ms="867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginSuiteWithValidCredential, Page_Title=Products, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc010LoginSuiteWithValidCredential -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:19:57 GST" name="tearDown" finished-at="2025-09-04T17:19:58 GST" duration-ms="398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc010LoginSuiteWithValidCredential status=SUCCESS method=LoginTest.tc010LoginSuiteWithValidCredential(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:19:58 GST" name="setup" finished-at="2025-09-04T17:20:02 GST" duration-ms="3805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc020LoginSuiteWithInValidUsername(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc020LoginSuiteWithInValidUsername(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:02 GST" name="tc020LoginSuiteWithInValidUsername" data-provider="excelData" finished-at="2025-09-04T17:20:02 GST" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020LoginSuiteWithInValidUsername, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc020LoginSuiteWithInValidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:02 GST" name="tearDown" finished-at="2025-09-04T17:20:03 GST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc020LoginSuiteWithInValidUsername status=SUCCESS method=LoginTest.tc020LoginSuiteWithInValidUsername(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:03 GST" name="setup" finished-at="2025-09-04T17:20:06 GST" duration-ms="3206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc030LoginSuiteWithBlankCredential(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc030LoginSuiteWithBlankCredential(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:06 GST" name="tc030LoginSuiteWithBlankCredential" data-provider="excelData" finished-at="2025-09-04T17:20:07 GST" duration-ms="537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlankCredential, Page_Title=, Password=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc030LoginSuiteWithBlankCredential -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:07 GST" name="tearDown" finished-at="2025-09-04T17:20:07 GST" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc030LoginSuiteWithBlankCredential status=SUCCESS method=LoginTest.tc030LoginSuiteWithBlankCredential(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:07 GST" name="setup" finished-at="2025-09-04T17:20:10 GST" duration-ms="3130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc040LoginSuiteWithBlankUsername(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc040LoginSuiteWithBlankUsername(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:10 GST" name="tc040LoginSuiteWithBlankUsername" data-provider="excelData" finished-at="2025-09-04T17:20:11 GST" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuiteWithBlankUsername, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc040LoginSuiteWithBlankUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:11 GST" name="tearDown" finished-at="2025-09-04T17:20:11 GST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc040LoginSuiteWithBlankUsername status=SUCCESS method=LoginTest.tc040LoginSuiteWithBlankUsername(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:11 GST" name="setup" finished-at="2025-09-04T17:20:15 GST" duration-ms="3193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc050LoginSuiteWithBlankPassword(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc050LoginSuiteWithBlankPassword(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:15 GST" name="tc050LoginSuiteWithBlankPassword" data-provider="excelData" finished-at="2025-09-04T17:20:15 GST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc050LoginSuiteWithBlankPassword, Page_Title=, Password=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc050LoginSuiteWithBlankPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:15 GST" name="tearDown" finished-at="2025-09-04T17:20:16 GST" duration-ms="584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc050LoginSuiteWithBlankPassword status=SUCCESS method=LoginTest.tc050LoginSuiteWithBlankPassword(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:16 GST" name="setup" finished-at="2025-09-04T17:20:19 GST" duration-ms="3328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc060LoginSuiteWithLockedOutUser(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc060LoginSuiteWithLockedOutUser(java.util.HashMap)[pri:5, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:19 GST" name="tc060LoginSuiteWithLockedOutUser" data-provider="excelData" finished-at="2025-09-04T17:20:20 GST" duration-ms="734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060LoginSuiteWithLockedOutUser, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc060LoginSuiteWithLockedOutUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:20 GST" name="tearDown" finished-at="2025-09-04T17:20:20 GST" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc060LoginSuiteWithLockedOutUser status=SUCCESS method=LoginTest.tc060LoginSuiteWithLockedOutUser(java.util.HashMap)[pri:5, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:20 GST" name="setup" finished-at="2025-09-04T17:20:24 GST" duration-ms="3632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc070LoginSuiteWithProblemUser(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc070LoginSuiteWithProblemUser(java.util.HashMap)[pri:6, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:24 GST" name="tc070LoginSuiteWithProblemUser" data-provider="excelData" finished-at="2025-09-04T17:20:25 GST" duration-ms="860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSuiteWithProblemUser, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc070LoginSuiteWithProblemUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:25 GST" name="tearDown" finished-at="2025-09-04T17:20:25 GST" duration-ms="391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc070LoginSuiteWithProblemUser status=SUCCESS method=LoginTest.tc070LoginSuiteWithProblemUser(java.util.HashMap)[pri:6, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:25 GST" name="setup" finished-at="2025-09-04T17:20:29 GST" duration-ms="3481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc080LoginSuiteWithPerformanceGlitchUser(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc080LoginSuiteWithPerformanceGlitchUser(java.util.HashMap)[pri:7, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:29 GST" name="tc080LoginSuiteWithPerformanceGlitchUser" data-provider="excelData" finished-at="2025-09-04T17:20:35 GST" duration-ms="5870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_user, TC_ID=tc080LoginSuiteWithPerformanceGlitchUser, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc080LoginSuiteWithPerformanceGlitchUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:35 GST" name="tearDown" finished-at="2025-09-04T17:20:35 GST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc080LoginSuiteWithPerformanceGlitchUser status=SUCCESS method=LoginTest.tc080LoginSuiteWithPerformanceGlitchUser(java.util.HashMap)[pri:7, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:35 GST" name="setup" finished-at="2025-09-04T17:20:39 GST" duration-ms="3685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc090LoginSuiteWithInValidPassword(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc090LoginSuiteWithInValidPassword(java.util.HashMap)[pri:8, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:39 GST" name="tc090LoginSuiteWithInValidPassword" data-provider="excelData" finished-at="2025-09-04T17:20:40 GST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginSuiteWithInValidPassword, Page_Title=, Password=test123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc090LoginSuiteWithInValidPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:40 GST" name="tearDown" finished-at="2025-09-04T17:20:40 GST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc090LoginSuiteWithInValidPassword status=SUCCESS method=LoginTest.tc090LoginSuiteWithInValidPassword(java.util.HashMap)[pri:8, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:40 GST" name="setup" finished-at="2025-09-04T17:20:44 GST" duration-ms="3352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.LoginTest.tc100LoginSuiteWithInValidUsername(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc100LoginSuiteWithInValidUsername(java.util.HashMap)[pri:9, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:44 GST" name="tc100LoginSuiteWithInValidUsername" data-provider="excelData" finished-at="2025-09-04T17:20:44 GST" duration-ms="649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWithInValidUsername, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc100LoginSuiteWithInValidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:20:44 GST" name="tearDown" finished-at="2025-09-04T17:20:45 GST" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc100LoginSuiteWithInValidUsername status=SUCCESS method=LoginTest.tc100LoginSuiteWithInValidUsername(java.util.HashMap)[pri:9, instance:com.saucedemo.tests.LoginTest@115667d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.saucedemo.tests.LoginTest@115667d]" started-at="2025-09-04T17:23:16 GST" name="tearDownReport" finished-at="2025-09-04T17:23:16 GST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.saucedemo.tests.LoginTest -->
+      <class name="com.saucedemo.tests.CartTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:24 GST" name="setup" finished-at="2025-09-04T17:21:28 GST" duration-ms="3871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CartTest.tc010VerifyCartItems(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc010VerifyCartItems(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:28 GST" name="tc010VerifyCartItems" data-provider="excelData" finished-at="2025-09-04T17:21:29 GST" duration-ms="1653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyCartItems, Page_Title=Products, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc010VerifyCartItems -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:29 GST" name="tearDown" finished-at="2025-09-04T17:21:30 GST" duration-ms="433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc010VerifyCartItems status=SUCCESS method=CartTest.tc010VerifyCartItems(java.util.HashMap)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:30 GST" name="setup" finished-at="2025-09-04T17:21:33 GST" duration-ms="3497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CartTest.tc020VerifyRemoveCartItem(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc020VerifyRemoveCartItem(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:33 GST" name="tc020VerifyRemoveCartItem" data-provider="excelData" finished-at="2025-09-04T17:21:45 GST" duration-ms="11409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveCartItem, Page_Title=Products, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc020VerifyRemoveCartItem -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:45 GST" name="tearDown" finished-at="2025-09-04T17:21:45 GST" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc020VerifyRemoveCartItem status=SUCCESS method=CartTest.tc020VerifyRemoveCartItem(java.util.HashMap)[pri:1, instance:com.saucedemo.tests.CartTest@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:45 GST" name="setup" finished-at="2025-09-04T17:21:49 GST" duration-ms="3611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CartTest.tc030VerifytestCartBadgeUpdatesAfterRemoval(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc030VerifytestCartBadgeUpdatesAfterRemoval(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:21:49 GST" name="tc030VerifytestCartBadgeUpdatesAfterRemoval" data-provider="excelData" finished-at="2025-09-04T17:22:01 GST" duration-ms="12022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifytestCartBadgeUpdatesAfterRemoval, Page_Title=Products, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc030VerifytestCartBadgeUpdatesAfterRemoval -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:01 GST" name="tearDown" finished-at="2025-09-04T17:22:02 GST" duration-ms="605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc030VerifytestCartBadgeUpdatesAfterRemoval status=SUCCESS method=CartTest.tc030VerifytestCartBadgeUpdatesAfterRemoval(java.util.HashMap)[pri:2, instance:com.saucedemo.tests.CartTest@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:02 GST" name="setup" finished-at="2025-09-04T17:22:06 GST" duration-ms="4423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CartTest.tc040VerifyContinueShoppingNavigation(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc040VerifyContinueShoppingNavigation(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:06 GST" name="tc040VerifyContinueShoppingNavigation" data-provider="excelData" finished-at="2025-09-04T17:22:08 GST" duration-ms="1534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueShoppingNavigation, Page_Title=Products, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc040VerifyContinueShoppingNavigation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:08 GST" name="tearDown" finished-at="2025-09-04T17:22:08 GST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc040VerifyContinueShoppingNavigation status=SUCCESS method=CartTest.tc040VerifyContinueShoppingNavigation(java.util.HashMap)[pri:3, instance:com.saucedemo.tests.CartTest@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:08 GST" name="setup" finished-at="2025-09-04T17:22:12 GST" duration-ms="3506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.saucedemo.tests.CartTest.tc050VerifyCheckoutNavigation(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc050VerifyCheckoutNavigation(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:12 GST" name="tc050VerifyCheckoutNavigation" data-provider="excelData" finished-at="2025-09-04T17:22:13 GST" duration-ms="1295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutNavigation, Page_Title=, Password=secret_sauce}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc050VerifyCheckoutNavigation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucedemo.tests.CartTest@63f8276e]" started-at="2025-09-04T17:22:13 GST" name="tearDown" finished-at="2025-09-04T17:22:13 GST" duration-ms="343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc050VerifyCheckoutNavigation status=SUCCESS method=CartTest.tc050VerifyCheckoutNavigation(java.util.HashMap)[pri:4, instance:com.saucedemo.tests.CartTest@63f8276e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CartTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- SauceDemo Suite -->
+</testng-results>

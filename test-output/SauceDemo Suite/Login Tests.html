@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>TestNG:  Login Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Sep 04 17:19:50 GST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>205 seconds (205395 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc080LoginSuiteWithPerformanceGlitchUser()'><b>tc080LoginSuiteWithPerformanceGlitchUser</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_user, TC_ID=tc080LoginSuiteWithPerformanceGlitchUser, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>5</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc090LoginSuiteWithInValidPassword()'><b>tc090LoginSuiteWithInValidPassword</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginSuiteWithInValidPassword, Page_Title=, Password=test123}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc050LoginSuiteWithBlankPassword()'><b>tc050LoginSuiteWithBlankPassword</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc050LoginSuiteWithBlankPassword, Page_Title=, Password=}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc070verifySortingByPriceLowToHigh()'><b>tc070verifySortingByPriceLowToHigh</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Page_Title=Products, Sort_Type=lohi, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.tc030VerifytestCartBadgeUpdatesAfterRemoval()'><b>tc030VerifytestCartBadgeUpdatesAfterRemoval</b><br>Test class: com.saucedemo.tests.CartTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifytestCartBadgeUpdatesAfterRemoval, Page_Title=Products, Password=secret_sauce}</td>
+<td></td>
+<td>12</td>
+<td>com.saucedemo.tests.CartTest@63f8276e</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc010VerifyCartBadgeUpdates()'><b>tc010VerifyCartBadgeUpdates</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyCartBadgeUpdates, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc050verifySortingByNameAZ()'><b>tc050verifySortingByNameAZ</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=Products, Sort_Type=az, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.tc040VerifyContinueShoppingNavigation()'><b>tc040VerifyContinueShoppingNavigation</b><br>Test class: com.saucedemo.tests.CartTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueShoppingNavigation, Page_Title=Products, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CartTest@63f8276e</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc040VerifyUserWithValidInfo()'><b>tc040VerifyUserWithValidInfo</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithValidInfo, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc040VerifyBackToProduct()'><b>tc040VerifyBackToProduct</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyBackToProduct, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc010VerifyUserWithBlankFirstName()'><b>tc010VerifyUserWithBlankFirstName</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithBlankFirstName, Page_Title=, FirstName=, PostalCode=789654, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc080verifySortingByPriceHighToLow()'><b>tc080verifySortingByPriceHighToLow</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Page_Title=Products, Sort_Type=hilo, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc100LoginSuiteWithInValidUsername()'><b>tc100LoginSuiteWithInValidUsername</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWithInValidUsername, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc070VerifyCancelFromCheckoutOverview()'><b>tc070VerifyCancelFromCheckoutOverview</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc070VerifyCancelFromCheckoutOverview, Page_Title=Products, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc050VerifyCancelFromUserInfo()'><b>tc050VerifyCancelFromUserInfo</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFromUserInfo, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc060LoginSuiteWithLockedOutUser()'><b>tc060LoginSuiteWithLockedOutUser</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060LoginSuiteWithLockedOutUser, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.tc010VerifyCartItems()'><b>tc010VerifyCartItems</b><br>Test class: com.saucedemo.tests.CartTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyCartItems, Page_Title=Products, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CartTest@63f8276e</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.tc050VerifyCheckoutNavigation()'><b>tc050VerifyCheckoutNavigation</b><br>Test class: com.saucedemo.tests.CartTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutNavigation, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CartTest@63f8276e</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc040LoginSuiteWithBlankUsername()'><b>tc040LoginSuiteWithBlankUsername</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuiteWithBlankUsername, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc030VerifyUserWithBlankPostalCodeName()'><b>tc030VerifyUserWithBlankPostalCodeName</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithBlankPostalCodeName, Page_Title=, FirstName=Veena, PostalCode=, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc020LoginSuiteWithInValidUsername()'><b>tc020LoginSuiteWithInValidUsername</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020LoginSuiteWithInValidUsername, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc100VerifyBackHomeFromCheckoutFinishOrder()'><b>tc100VerifyBackHomeFromCheckoutFinishOrder</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc100VerifyBackHomeFromCheckoutFinishOrder, Page_Title=Products, FirstName=Veena, PostalCode=789652, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CartTest.tc020VerifyRemoveCartItem()'><b>tc020VerifyRemoveCartItem</b><br>Test class: com.saucedemo.tests.CartTest<br>Parameters: {Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveCartItem, Page_Title=Products, Password=secret_sauce}</td>
+<td></td>
+<td>11</td>
+<td>com.saucedemo.tests.CartTest@63f8276e</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc010LoginSuiteWithValidCredential()'><b>tc010LoginSuiteWithValidCredential</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginSuiteWithValidCredential, Page_Title=Products, Password=secret_sauce}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc030LoginSuiteWithBlankCredential()'><b>tc030LoginSuiteWithBlankCredential</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlankCredential, Page_Title=, Password=}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc020VerifyRemoveFromProductPage()'><b>tc020VerifyRemoveFromProductPage</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveFromProductPage, Page_Title=Products, Sort_Type=, Item_Operations=Remove|Add to cart, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc090VerifyCheckOutMessageFromCheckoutFinishOrder()'><b>tc090VerifyCheckOutMessageFromCheckoutFinishOrder</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc090VerifyCheckOutMessageFromCheckoutFinishOrder, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc060VerifyItemAndPriceDetails()'><b>tc060VerifyItemAndPriceDetails</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc060VerifyItemAndPriceDetails, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>2</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc020VerifyUserWithBlankLastName()'><b>tc020VerifyUserWithBlankLastName</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithBlankLastName, Page_Title=, FirstName=Kavin, PostalCode=789654, LastName=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc030VerifyProductDetailPage()'><b>tc030VerifyProductDetailPage</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyProductDetailPage, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+<tr>
+<td title='com.saucedemo.tests.CheckoutProcessTest.tc080VerifyFinishFromCheckoutOverview()'><b>tc080VerifyFinishFromCheckoutOverview</b><br>Test class: com.saucedemo.tests.CheckoutProcessTest<br>Parameters: {Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc080VerifyFinishFromCheckoutOverview, Page_Title=, FirstName=Veena, PostalCode=789646, LastName=Kavin, Password=secret_sauce}</td>
+<td></td>
+<td>3</td>
+<td>com.saucedemo.tests.CheckoutProcessTest@75f95314</td></tr>
+<tr>
+<td title='com.saucedemo.tests.LoginTest.tc070LoginSuiteWithProblemUser()'><b>tc070LoginSuiteWithProblemUser</b><br>Test class: com.saucedemo.tests.LoginTest<br>Parameters: {Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSuiteWithProblemUser, Page_Title=, Password=secret_sauce}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.tests.LoginTest@115667d</td></tr>
+<tr>
+<td title='com.saucedemo.tests.ProductTest.tc060verifySortingByNameZA()'><b>tc060verifySortingByNameZA</b><br>Test class: com.saucedemo.tests.ProductTest<br>Parameters: {Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=Products, Sort_Type=za, Item_Operations=, Password=secret_sauce}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.tests.ProductTest@497486b3</td></tr>
+</table><p>
+</body>
+</html>

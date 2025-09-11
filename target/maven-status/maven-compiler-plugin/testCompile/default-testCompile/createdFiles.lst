@@ -1,0 +1,14 @@
+com\saucedemo\pages\CheckoutUserInfoPage.class
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\tests\ProductTest.class
+com\saucedemo\pages\ProductsPage$sortContainer.class
+com\saucedemo\base\BaseTest.class
+com\saucedemo\tests\LoginTest.class
+com\saucedemo\pages\CheckoutOverviewPage.class
+com\saucedemo\pages\CheckoutFinishOrderPage.class
+com\saucedemo\tests\CheckoutProcessTest.class
+com\saucedemo\base\DriverFactory.class
+com\saucedemo\pages\ProductsPage.class
+com\saucedemo\pages\CartPage.class
+com\saucedemo\tests\CartTest.class
+com\saucedemo\base\SauceDemoUtils.class

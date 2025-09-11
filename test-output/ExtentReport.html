@@ -1,0 +1,4031 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 4, 2025 05:19:50 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc010LoginSuiteWithValidCredential</p>
+            <p class="text-sm">
+              <span>5:19:57 PM</span> / <span>00:00:00:918</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc010LoginSuiteWithValidCredential</h5>
+<span class='badge badge-success'>09.04.2025 5:19:57 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:19:57 PM</span>
+<span class='badge badge-default'>00:00:00:918</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:19:57 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:19:57 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:19:57 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:19:57 PM</td>
+        <td>
+          User able to see Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:19:57 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:19:57 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc020LoginSuiteWithInValidUsername</p>
+            <p class="text-sm">
+              <span>5:20:02 PM</span> / <span>00:00:00:706</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc020LoginSuiteWithInValidUsername</h5>
+<span class='badge badge-success'>09.04.2025 5:20:02 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:02 PM</span>
+<span class='badge badge-default'>00:00:00:706</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          Logged into Saucedemo as (secret_sauce/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          Verified Invalid login error 'Epic sadface: Username and password do not match any user in this service' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:02 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc030LoginSuiteWithBlankCredential</p>
+            <p class="text-sm">
+              <span>5:20:06 PM</span> / <span>00:00:00:544</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc030LoginSuiteWithBlankCredential</h5>
+<span class='badge badge-success'>09.04.2025 5:20:06 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:07 PM</span>
+<span class='badge badge-default'>00:00:00:544</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:06 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:07 PM</td>
+        <td>
+          Logged into Saucedemo as (/)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:07 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:07 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:07 PM</td>
+        <td>
+          Verified Blank login error 'Epic sadface: Username is required' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:07 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:07 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc040LoginSuiteWithBlankUsername</p>
+            <p class="text-sm">
+              <span>5:20:10 PM</span> / <span>00:00:00:580</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc040LoginSuiteWithBlankUsername</h5>
+<span class='badge badge-success'>09.04.2025 5:20:10 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:11 PM</span>
+<span class='badge badge-default'>00:00:00:580</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:10 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:11 PM</td>
+        <td>
+          Logged into Saucedemo as (/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:11 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:11 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:11 PM</td>
+        <td>
+          Verified Blank user error 'Epic sadface: Username is required' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:11 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:11 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc050LoginSuiteWithBlankPassword</p>
+            <p class="text-sm">
+              <span>5:20:15 PM</span> / <span>00:00:00:637</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc050LoginSuiteWithBlankPassword</h5>
+<span class='badge badge-success'>09.04.2025 5:20:15 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:15 PM</span>
+<span class='badge badge-default'>00:00:00:637</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          Verified Blank password error 'Epic sadface: Password is required' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:15 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc060LoginSuiteWithLockedOutUser</p>
+            <p class="text-sm">
+              <span>5:20:19 PM</span> / <span>00:00:00:739</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc060LoginSuiteWithLockedOutUser</h5>
+<span class='badge badge-success'>09.04.2025 5:20:19 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:20 PM</span>
+<span class='badge badge-default'>00:00:00:739</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:19 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:20 PM</td>
+        <td>
+          Logged into Saucedemo as (locked_out_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:20 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:20 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:20 PM</td>
+        <td>
+          Verified Locked out user error 'Epic sadface: Sorry, this user has been locked out.' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:20 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:20 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc070LoginSuiteWithProblemUser</p>
+            <p class="text-sm">
+              <span>5:20:24 PM</span> / <span>00:00:00:863</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc070LoginSuiteWithProblemUser</h5>
+<span class='badge badge-success'>09.04.2025 5:20:24 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:25 PM</span>
+<span class='badge badge-default'>00:00:00:863</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:24 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:25 PM</td>
+        <td>
+          Logged into Saucedemo as (problem_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:25 PM</td>
+        <td>
+          To verifying broken images in product page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:25 PM</td>
+        <td>
+          All product images are displayed correctly
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:25 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:25 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc080LoginSuiteWithPerformanceGlitchUser</p>
+            <p class="text-sm">
+              <span>5:20:29 PM</span> / <span>00:00:05:878</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc080LoginSuiteWithPerformanceGlitchUser</h5>
+<span class='badge badge-success'>09.04.2025 5:20:29 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:35 PM</span>
+<span class='badge badge-default'>00:00:05:878</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:29 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          Logged into Saucedemo as (performance_glitch_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          Waiting for Products page to load completely
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          Products page loaded successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          Page load time for performance_glitch_user: 5792 ms
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          Performance glitch user has slow load time as expected
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:35 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc090LoginSuiteWithInValidPassword</p>
+            <p class="text-sm">
+              <span>5:20:39 PM</span> / <span>00:00:00:664</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc090LoginSuiteWithInValidPassword</h5>
+<span class='badge badge-success'>09.04.2025 5:20:39 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:40 PM</span>
+<span class='badge badge-default'>00:00:00:664</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:39 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:40 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/test123)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:40 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:40 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:40 PM</td>
+        <td>
+          Verified Invalid login error 'Epic sadface: Username and password do not match any user in this service' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:40 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:40 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc100LoginSuiteWithInValidUsername</p>
+            <p class="text-sm">
+              <span>5:20:44 PM</span> / <span>00:00:00:654</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc100LoginSuiteWithInValidUsername</h5>
+<span class='badge badge-success'>09.04.2025 5:20:44 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:44 PM</span>
+<span class='badge badge-default'>00:00:00:654</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          Logged into Saucedemo as (test123/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          Getting the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          Verified Invalid login error 'Epic sadface: Username and password do not match any user in this service' message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:44 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc010VerifyCartBadgeUpdates</p>
+            <p class="text-sm">
+              <span>5:20:48 PM</span> / <span>00:00:01:155</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc010VerifyCartBadgeUpdates</h5>
+<span class='badge badge-success'>09.04.2025 5:20:48 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:49 PM</span>
+<span class='badge badge-default'>00:00:01:155</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:48 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Verified cast badge count 2
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:49 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc020VerifyRemoveFromProductPage</p>
+            <p class="text-sm">
+              <span>5:20:53 PM</span> / <span>00:00:01:357</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc020VerifyRemoveFromProductPage</h5>
+<span class='badge badge-success'>09.04.2025 5:20:53 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:54 PM</span>
+<span class='badge badge-default'>00:00:01:357</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:53 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:53 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:53 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:53 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:53 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          Verified 'Remove' is diplayed for Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          Clicking 'Remove' button for given product Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          Clicked 'Remove' button for given product Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          Verified 'Add to cart' is diplayed for Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:54 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc030VerifyProductDetailPage</p>
+            <p class="text-sm">
+              <span>5:20:58 PM</span> / <span>00:00:01:393</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc030VerifyProductDetailPage</h5>
+<span class='badge badge-success'>09.04.2025 5:20:58 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:20:59 PM</span>
+<span class='badge badge-default'>00:00:01:393</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:58 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:58 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:58 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:58 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:58 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:20:59 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:59 PM</td>
+        <td>
+          Verified 'Product' detail page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:59 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:20:59 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="14"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc040VerifyBackToProduct</p>
+            <p class="text-sm">
+              <span>5:21:02 PM</span> / <span>00:00:02:288</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc040VerifyBackToProduct</h5>
+<span class='badge badge-success'>09.04.2025 5:21:02 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:04 PM</span>
+<span class='badge badge-default'>00:00:02:288</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:03 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:03 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:03 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Verified 'Product' detail page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Navigating back to product page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Navigated back to product page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Verified 'Product' page is displayed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:04 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc050verifySortingByNameAZ</p>
+            <p class="text-sm">
+              <span>5:21:08 PM</span> / <span>00:00:01:033</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc050verifySortingByNameAZ</h5>
+<span class='badge badge-success'>09.04.2025 5:21:08 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:09 PM</span>
+<span class='badge badge-default'>00:00:01:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:08 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:09 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:09 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:09 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:09 PM</td>
+        <td>
+          Verified Products sorted A-Z
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:09 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:09 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="16"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc060verifySortingByNameZA</p>
+            <p class="text-sm">
+              <span>5:21:13 PM</span> / <span>00:00:01:035</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc060verifySortingByNameZA</h5>
+<span class='badge badge-success'>09.04.2025 5:21:13 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:14 PM</span>
+<span class='badge badge-default'>00:00:01:035</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:13 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:14 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:14 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:14 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:14 PM</td>
+        <td>
+          Verified Products sorted Z-A
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:14 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:14 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc070verifySortingByPriceLowToHigh</p>
+            <p class="text-sm">
+              <span>5:21:18 PM</span> / <span>00:00:01:031</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc070verifySortingByPriceLowToHigh</h5>
+<span class='badge badge-success'>09.04.2025 5:21:18 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:19 PM</span>
+<span class='badge badge-default'>00:00:01:031</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:18 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:18 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:18 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:18 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:19 PM</td>
+        <td>
+          Products sorted by Price Low-High
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:19 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:19 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc080verifySortingByPriceHighToLow</p>
+            <p class="text-sm">
+              <span>5:21:21 PM</span> / <span>00:00:01:937</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc080verifySortingByPriceHighToLow</h5>
+<span class='badge badge-success'>09.04.2025 5:21:21 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:23 PM</span>
+<span class='badge badge-default'>00:00:01:937</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:22 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:23 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:23 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:23 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:23 PM</td>
+        <td>
+          Products sorted by Price High-Low
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:23 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:23 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc010VerifyCartItems</p>
+            <p class="text-sm">
+              <span>5:21:28 PM</span> / <span>00:00:01:657</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc010VerifyCartItems</h5>
+<span class='badge badge-success'>09.04.2025 5:21:28 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:29 PM</span>
+<span class='badge badge-default'>00:00:01:657</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:28 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:28 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Verify selected items displayed in cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Selected items are displayed in cart page: [Sauce Labs Bike Light, Sauce Labs Backpack]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:29 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc020VerifyRemoveCartItem</p>
+            <p class="text-sm">
+              <span>5:21:33 PM</span> / <span>00:00:11:412</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc020VerifyRemoveCartItem</h5>
+<span class='badge badge-success'>09.04.2025 5:21:33 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:21:45 PM</span>
+<span class='badge badge-default'>00:00:11:412</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:33 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Verify selected items displayed in cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Selected items are displayed in cart page: Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:34 PM</td>
+        <td>
+          Clicking remove button for Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:35 PM</td>
+        <td>
+          Clicked 'Remove' button for Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:35 PM</td>
+        <td>
+          Verify selected items displayed in cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:45 PM</td>
+        <td>
+          Removed item not displayed in cart page: Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:45 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:45 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc030VerifytestCartBadgeUpdatesAfterRemoval</p>
+            <p class="text-sm">
+              <span>5:21:49 PM</span> / <span>00:00:12:026</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc030VerifytestCartBadgeUpdatesAfterRemoval</h5>
+<span class='badge badge-success'>09.04.2025 5:21:49 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:01 PM</span>
+<span class='badge badge-default'>00:00:12:026</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:49 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Login to Saucedemo page successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:50 PM</td>
+        <td>
+          Verify selected items displayed in cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Selected items are displayed in cart page: [Sauce Labs Bike Light, Sauce Labs Backpack]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Clicking remove button for Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Clicked 'Remove' button for Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Verify selected items displayed in cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Removed item not displayed in cart page: Sauce Labs Bike Light
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Cart badge count is decreased after removal1
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Clicking remove button for Sauce Labs Backpack
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:21:51 PM</td>
+        <td>
+          Clicked 'Remove' button for Sauce Labs Backpack
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:01 PM</td>
+        <td>
+          Cart badge is not displayed when cart is empty
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:01 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:01 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc040VerifyContinueShoppingNavigation</p>
+            <p class="text-sm">
+              <span>5:22:06 PM</span> / <span>00:00:01:541</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc040VerifyContinueShoppingNavigation</h5>
+<span class='badge badge-success'>09.04.2025 5:22:06 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:08 PM</span>
+<span class='badge badge-default'>00:00:01:541</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:06 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:07 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:07 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:07 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:07 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:07 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:07 PM</td>
+        <td>
+          Clicking 'Continue Shopping' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:08 PM</td>
+        <td>
+          Clicked 'Continue Shopping' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:08 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:08 PM</td>
+        <td>
+          Verified Navigated back to Products page using Continue Shopping button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:08 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:08 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc050VerifyCheckoutNavigation</p>
+            <p class="text-sm">
+              <span>5:22:12 PM</span> / <span>00:00:01:298</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc050VerifyCheckoutNavigation</h5>
+<span class='badge badge-success'>09.04.2025 5:22:12 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:13 PM</span>
+<span class='badge badge-default'>00:00:01:298</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:12 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:12 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:12 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          Verified Navigated to 'Checkout: Your imformation' page using Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:13 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc010VerifyUserWithBlankFirstName</p>
+            <p class="text-sm">
+              <span>5:22:17 PM</span> / <span>00:00:01:976</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc010VerifyUserWithBlankFirstName</h5>
+<span class='badge badge-success'>09.04.2025 5:22:17 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:19 PM</span>
+<span class='badge badge-default'>00:00:01:976</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:17 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:17 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:17 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Entered Checkout information:  Kavin 789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:18 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:19 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:19 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:19 PM</td>
+        <td>
+          Getting invalid error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:19 PM</td>
+        <td>
+          Blank first name error 'Error: First Name is required' message is displayed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:19 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:19 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc020VerifyUserWithBlankLastName</p>
+            <p class="text-sm">
+              <span>5:22:22 PM</span> / <span>00:00:01:901</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc020VerifyUserWithBlankLastName</h5>
+<span class='badge badge-success'>09.04.2025 5:22:22 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:24 PM</span>
+<span class='badge badge-default'>00:00:01:901</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:23 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:23 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:23 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:23 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:23 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Entered Checkout information: Kavin  789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Getting invalid error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Blank last name error 'Error: Last Name is required' message is displayed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:24 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="26"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc030VerifyUserWithBlankPostalCodeName</p>
+            <p class="text-sm">
+              <span>5:22:28 PM</span> / <span>00:00:02:017</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc030VerifyUserWithBlankPostalCodeName</h5>
+<span class='badge badge-success'>09.04.2025 5:22:28 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:30 PM</span>
+<span class='badge badge-default'>00:00:02:017</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:28 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:29 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Verifying the incorrect login error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Getting invalid error message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Blank postal code error 'Error: Postal Code is required' message is displayed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:30 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc040VerifyUserWithValidInfo</p>
+            <p class="text-sm">
+              <span>5:22:34 PM</span> / <span>00:00:02:248</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc040VerifyUserWithValidInfo</h5>
+<span class='badge badge-success'>09.04.2025 5:22:34 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:36 PM</span>
+<span class='badge badge-default'>00:00:02:248</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:34 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:35 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:35 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:35 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:35 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:35 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:35 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          User able to see checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:36 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc050VerifyCancelFromUserInfo</p>
+            <p class="text-sm">
+              <span>5:22:40 PM</span> / <span>00:00:02:116</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc050VerifyCancelFromUserInfo</h5>
+<span class='badge badge-success'>09.04.2025 5:22:40 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:42 PM</span>
+<span class='badge badge-default'>00:00:02:116</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:40 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:41 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:41 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:41 PM</td>
+        <td>
+          Selected given [Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:41 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:41 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:41 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          Clicking Cancel button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          Clicked Cancel button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          User able to see 'Cart' page after clicking 'Cancel' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:42 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc060VerifyItemAndPriceDetails</p>
+            <p class="text-sm">
+              <span>5:22:46 PM</span> / <span>00:00:02:338</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc060VerifyItemAndPriceDetails</h5>
+<span class='badge badge-success'>09.04.2025 5:22:46 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:48 PM</span>
+<span class='badge badge-default'>00:00:02:338</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:46 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:47 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:47 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:47 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:47 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:47 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:47 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          User able to see checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Getting list of products displayed in checkout summary
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          User able to see correct product list in checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Getting total in checkout summary
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Getting subtotal in checkout summary
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Getting Tax in checkout summary
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          User able to see correct total in checkout overivew page after sum of subtotal + tax
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:48 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc070VerifyCancelFromCheckoutOverview</p>
+            <p class="text-sm">
+              <span>5:22:52 PM</span> / <span>00:00:02:341</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc070VerifyCancelFromCheckoutOverview</h5>
+<span class='badge badge-success'>09.04.2025 5:22:52 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:22:54 PM</span>
+<span class='badge badge-default'>00:00:02:341</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:52 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:53 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:53 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:53 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:53 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:53 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:53 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          User able to see checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Clicking Cancel button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Clicked Cancel button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          User able to see Products page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:22:54 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc080VerifyFinishFromCheckoutOverview</p>
+            <p class="text-sm">
+              <span>5:22:58 PM</span> / <span>00:00:03:050</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc080VerifyFinishFromCheckoutOverview</h5>
+<span class='badge badge-success'>09.04.2025 5:22:58 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:23:01 PM</span>
+<span class='badge badge-default'>00:00:03:050</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:58 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:59 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:59 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:59 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:59 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:22:59 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:00 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:00 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:00 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:00 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789646
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:00 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          User able to see checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          Clicking Finish button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          Clicked Finish button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          User able to see Checkout: Complete page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:01 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc090VerifyCheckOutMessageFromCheckoutFinishOrder</p>
+            <p class="text-sm">
+              <span>5:23:05 PM</span> / <span>00:00:02:909</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc090VerifyCheckOutMessageFromCheckoutFinishOrder</h5>
+<span class='badge badge-success'>09.04.2025 5:23:05 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:23:08 PM</span>
+<span class='badge badge-default'>00:00:02:909</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:05 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:06 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:06 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:07 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:07 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:07 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:07 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:07 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:07 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789654
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          User able to see checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Clicking Finish button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Clicked Finish button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          User able to see Checkout: Complete page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Verifying order confirmation message
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          User able to see Thank you for your order! Your order has been dispatched, and will arrive just as fast as the pony can get there!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:08 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="33"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">tc100VerifyBackHomeFromCheckoutFinishOrder</p>
+            <p class="text-sm">
+              <span>5:23:12 PM</span> / <span>00:00:02:701</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">tc100VerifyBackHomeFromCheckoutFinishOrder</h5>
+<span class='badge badge-success'>09.04.2025 5:23:12 PM</span>
+<span class='badge badge-danger'>09.04.2025 5:23:15 PM</span>
+<span class='badge badge-default'>00:00:02:701</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:12 PM</td>
+        <td>
+          Login to the Saucedemo
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:13 PM</td>
+        <td>
+          Logged into Saucedemo as (standard_user/secret_sauce)
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:13 PM</td>
+        <td>
+          Selecting given product [Sauce Labs Bike Light, Sauce Labs Backpack] from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Selected given [Sauce Labs Bike Light, Sauce Labs Backpack] product from the list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Navigating to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Navigated to cart page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Clicking 'Checkout' button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          User able to see 'Checkout: Your information' page after clicking Checkout button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Entering checkout information
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Entered Checkout information: Veena Kavin 789652
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:14 PM</td>
+        <td>
+          Clicking Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Clicked Continue button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          User able to see checkout overview page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Clicking Finish button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Clicked Finish button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          User able to see Checkout: Complete page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Clicking Back Home button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Clicked Back Home button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Getting page title
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          User able to see Products page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          <span class='badge white-text green'>Test Passed</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:23:15 PM</td>
+        <td>
+          Test passed successfully
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 4, 2025 05:19:50 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 4, 2025 05:23:16 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>33</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>33</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='34%'><b>134</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>257</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"tc010LoginSuiteWithValidCredential":0.918,"tc020LoginSuiteWithInValidUsername":0.706,"tc030LoginSuiteWithBlankCredential":0.544,"tc040LoginSuiteWithBlankUsername":0.58,"tc050LoginSuiteWithBlankPassword":0.637,"tc060LoginSuiteWithLockedOutUser":0.739,"tc070LoginSuiteWithProblemUser":0.863,"tc080LoginSuiteWithPerformanceGlitchUser":5.878,"tc090LoginSuiteWithInValidPassword":0.664,"tc100LoginSuiteWithInValidUsername":0.654,"tc010VerifyCartBadgeUpdates":1.155,"tc020VerifyRemoveFromProductPage":1.357,"tc030VerifyProductDetailPage":1.393,"tc040VerifyBackToProduct":2.288,"tc050verifySortingByNameAZ":1.033,"tc060verifySortingByNameZA":1.035,"tc070verifySortingByPriceLowToHigh":1.031,"tc080verifySortingByPriceHighToLow":1.937,"tc010VerifyCartItems":1.657,"tc020VerifyRemoveCartItem":11.412,"tc030VerifytestCartBadgeUpdatesAfterRemoval":12.026,"tc040VerifyContinueShoppingNavigation":1.541,"tc050VerifyCheckoutNavigation":1.298,"tc010VerifyUserWithBlankFirstName":1.976,"tc020VerifyUserWithBlankLastName":1.901,"tc030VerifyUserWithBlankPostalCodeName":2.017,"tc040VerifyUserWithValidInfo":2.248,"tc050VerifyCancelFromUserInfo":2.116,"tc060VerifyItemAndPriceDetails":2.338,"tc070VerifyCancelFromCheckoutOverview":2.341,"tc080VerifyFinishFromCheckoutOverview":3.05,"tc090VerifyCheckOutMessageFromCheckoutFinishOrder":2.909,"tc100VerifyBackHomeFromCheckoutFinishOrder":2.701
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 33,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 134,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 257
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

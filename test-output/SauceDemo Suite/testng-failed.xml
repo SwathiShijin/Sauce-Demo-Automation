@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemo Suite]" verbose="0">
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.saucedemo.tests.LoginTest">
+        <methods>
+          <include name="tc050LoginSuiteWithBlankPassword"/>
+          <include name="setup"/>
+          <include name="tc070LoginSuiteWithProblemUser"/>
+          <include name="tc010LoginSuiteWithValidCredential"/>
+          <include name="tc090LoginSuiteWithInValidPassword"/>
+          <include name="tearDownReport"/>
+          <include name="tc060LoginSuiteWithLockedOutUser"/>
+          <include name="tc080LoginSuiteWithPerformanceGlitchUser"/>
+          <include name="tc040LoginSuiteWithBlankUsername"/>
+          <include name="tc020LoginSuiteWithInValidUsername"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="tc030LoginSuiteWithBlankCredential"/>
+          <include name="tc100LoginSuiteWithInValidUsername"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.LoginTest -->
+      <class name="com.saucedemo.tests.CartTest">
+        <methods>
+          <include name="tc030VerifytestCartBadgeUpdatesAfterRemoval"/>
+          <include name="tearDownReport"/>
+          <include name="tc040VerifyContinueShoppingNavigation"/>
+          <include name="tc050VerifyCheckoutNavigation"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="tc010VerifyCartItems"/>
+          <include name="setupReport"/>
+          <include name="tc020VerifyRemoveCartItem"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.CartTest -->
+      <class name="com.saucedemo.tests.ProductTest">
+        <methods>
+          <include name="tearDownReport"/>
+          <include name="tc040VerifyBackToProduct"/>
+          <include name="setup"/>
+          <include name="tc070verifySortingByPriceLowToHigh"/>
+          <include name="tearDown"/>
+          <include name="tc020VerifyRemoveFromProductPage"/>
+          <include name="setupReport"/>
+          <include name="tc050verifySortingByNameAZ"/>
+          <include name="tc080verifySortingByPriceHighToLow"/>
+          <include name="tc030VerifyProductDetailPage"/>
+          <include name="tc060verifySortingByNameZA"/>
+          <include name="tc010VerifyCartBadgeUpdates"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.ProductTest -->
+      <class name="com.saucedemo.tests.CheckoutProcessTest">
+        <methods>
+          <include name="tc080VerifyFinishFromCheckoutOverview"/>
+          <include name="tc090VerifyCheckOutMessageFromCheckoutFinishOrder"/>
+          <include name="tc030VerifyUserWithBlankPostalCodeName"/>
+          <include name="tc020VerifyUserWithBlankLastName"/>
+          <include name="setup"/>
+          <include name="tc060VerifyItemAndPriceDetails"/>
+          <include name="tc040VerifyUserWithValidInfo"/>
+          <include name="tc010VerifyUserWithBlankFirstName"/>
+          <include name="tearDownReport"/>
+          <include name="tc050VerifyCancelFromUserInfo"/>
+          <include name="tc100VerifyBackHomeFromCheckoutFinishOrder"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="tc070VerifyCancelFromCheckoutOverview"/>
+        </methods>
+      </class> <!-- com.saucedemo.tests.CheckoutProcessTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [SauceDemo Suite] -->

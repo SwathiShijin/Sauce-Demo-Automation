@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SauceDemo_Suite" class="navigator-link">
+              <span class="suite-name border-passed">SauceDemo Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SauceDemo_Suite" class="navigator-link ">
+                    <span>D:\Project\SauceDemo Automation\src\test\resources\xml\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SauceDemo_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SauceDemo_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SauceDemo_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SauceDemo_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SauceDemo_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SauceDemo_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SauceDemo_Suite" class="hide-methods passed suite-SauceDemo_Suite"> (hide)</a> <!-- hide-methods passed suite-SauceDemo_Suite -->
+                      <a href="#" panel-name="suite-SauceDemo_Suite" class="show-methods passed suite-SauceDemo_Suite"> (show)</a> <!-- show-methods passed suite-SauceDemo_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-SauceDemo_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc010LoginSuiteWithValidCredential({Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginS...)">tc010LoginSuiteWithValidCredential({Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc010VerifyCartBadgeUpdates({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc010VerifyCartBadgeUpdates({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="tc010VerifyCartItems({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc010VerifyCartItems({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc010VerifyUserWithBlankFirstName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithB...)">tc010VerifyUserWithBlankFirstName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithB...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc020LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020Login...)">tc020LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020Login...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="tc020VerifyRemoveCartItem({Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveC...)">tc020VerifyRemoveCartItem({Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveC...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc020VerifyRemoveFromProductPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc020VerifyRemoveFromProductPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc020VerifyUserWithBlankLastName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithB...)">tc020VerifyUserWithBlankLastName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithB...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc030LoginSuiteWithBlankCredential({Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlank...)">tc030LoginSuiteWithBlankCredential({Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlank...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc030VerifyProductDetailPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc030VerifyProductDetailPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc030VerifyUserWithBlankPostalCodeName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithB...)">tc030VerifyUserWithBlankPostalCodeName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithB...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="tc030VerifytestCartBadgeUpdatesAfterRemoval({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc030VerifytestCartBadgeUpdatesAfterRemoval({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc040LoginSuiteWithBlankUsername({Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuit...)">tc040LoginSuiteWithBlankUsername({Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuit...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc040VerifyBackToProduct({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc040VerifyBackToProduct({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="tc040VerifyContinueShoppingNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueS...)">tc040VerifyContinueShoppingNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc040VerifyUserWithValidInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithV...)">tc040VerifyUserWithValidInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithV...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc050LoginSuiteWithBlankPassword({Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc...)">tc050LoginSuiteWithBlankPassword({Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc050VerifyCancelFromUserInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFro...)">tc050VerifyCancelFromUserInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFro...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CartTest" class="method navigator-link" hash-for-method="tc050VerifyCheckoutNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutN...)">tc050VerifyCheckoutNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutN...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc050verifySortingByNameAZ({Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=...)">tc050verifySortingByNameAZ({Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc060LoginSuiteWithLockedOutUser({Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060L...)">tc060LoginSuiteWithLockedOutUser({Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060L...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc060VerifyItemAndPriceDetails({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc060VerifyItemAndPriceDetails({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc060verifySortingByNameZA({Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=...)">tc060verifySortingByNameZA({Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc070LoginSuiteWithProblemUser({Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSu...)">tc070LoginSuiteWithProblemUser({Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc070VerifyCancelFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc070VerifyCancelFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc070verifySortingByPriceLowToHigh({Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Pag...)">tc070verifySortingByPriceLowToHigh({Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Pag...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc080LoginSuiteWithPerformanceGlitchUser({Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_us...)">tc080LoginSuiteWithPerformanceGlitchUser({Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_us...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc080VerifyFinishFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc080VerifyFinishFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.ProductTest" class="method navigator-link" hash-for-method="tc080verifySortingByPriceHighToLow({Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Pag...)">tc080verifySortingByPriceHighToLow({Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Pag...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc090LoginSuiteWithInValidPassword({Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginS...)">tc090LoginSuiteWithInValidPassword({Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginS...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc090VerifyCheckOutMessageFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc090VerifyCheckOutMessageFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.LoginTest" class="method navigator-link" hash-for-method="tc100LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWi...)">tc100LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWi...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SauceDemo_Suite" title="com.saucedemo.tests.CheckoutProcessTest" class="method navigator-link" hash-for-method="tc100VerifyBackHomeFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">tc100VerifyBackHomeFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SauceDemo_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SauceDemo_Suite" class="panel SauceDemo_Suite">
+          <div class="suite-SauceDemo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc010VerifyCartItems({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc010VerifyCartItems({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc010VerifyCartItems</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyCartItems, Page_Title=Products, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc020VerifyRemoveCartItem({Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveC...)">
+                  </a> <!-- tc020VerifyRemoveCartItem({Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveC...) -->
+                  <span class="method-name">tc020VerifyRemoveCartItem</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveCartItem, Page_Title=Products, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc030VerifytestCartBadgeUpdatesAfterRemoval({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc030VerifytestCartBadgeUpdatesAfterRemoval({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc030VerifytestCartBadgeUpdatesAfterRemoval</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifytestCartBadgeUpdatesAfterRemoval, Page_Title=Products, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc040VerifyContinueShoppingNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueS...)">
+                  </a> <!-- tc040VerifyContinueShoppingNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueS...) -->
+                  <span class="method-name">tc040VerifyContinueShoppingNavigation</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueShoppingNavigation, Page_Title=Products, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc050VerifyCheckoutNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutN...)">
+                  </a> <!-- tc050VerifyCheckoutNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutN...) -->
+                  <span class="method-name">tc050VerifyCheckoutNavigation</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutNavigation, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Suite-class-passed -->
+          <div class="suite-SauceDemo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc010LoginSuiteWithValidCredential({Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginS...)">
+                  </a> <!-- tc010LoginSuiteWithValidCredential({Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginS...) -->
+                  <span class="method-name">tc010LoginSuiteWithValidCredential</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginSuiteWithValidCredential, Page_Title=Products, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc020LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020Login...)">
+                  </a> <!-- tc020LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020Login...) -->
+                  <span class="method-name">tc020LoginSuiteWithInValidUsername</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020LoginSuiteWithInValidUsername, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc030LoginSuiteWithBlankCredential({Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlank...)">
+                  </a> <!-- tc030LoginSuiteWithBlankCredential({Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlank...) -->
+                  <span class="method-name">tc030LoginSuiteWithBlankCredential</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlankCredential, Page_Title=, Password=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc040LoginSuiteWithBlankUsername({Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuit...)">
+                  </a> <!-- tc040LoginSuiteWithBlankUsername({Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuit...) -->
+                  <span class="method-name">tc040LoginSuiteWithBlankUsername</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuiteWithBlankUsername, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc050LoginSuiteWithBlankPassword({Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc...)">
+                  </a> <!-- tc050LoginSuiteWithBlankPassword({Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc...) -->
+                  <span class="method-name">tc050LoginSuiteWithBlankPassword</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc050LoginSuiteWithBlankPassword, Page_Title=, Password=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc060LoginSuiteWithLockedOutUser({Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060L...)">
+                  </a> <!-- tc060LoginSuiteWithLockedOutUser({Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060L...) -->
+                  <span class="method-name">tc060LoginSuiteWithLockedOutUser</span>
+                  <span class="parameters">({Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060LoginSuiteWithLockedOutUser, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc070LoginSuiteWithProblemUser({Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSu...)">
+                  </a> <!-- tc070LoginSuiteWithProblemUser({Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSu...) -->
+                  <span class="method-name">tc070LoginSuiteWithProblemUser</span>
+                  <span class="parameters">({Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSuiteWithProblemUser, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc080LoginSuiteWithPerformanceGlitchUser({Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_us...)">
+                  </a> <!-- tc080LoginSuiteWithPerformanceGlitchUser({Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_us...) -->
+                  <span class="method-name">tc080LoginSuiteWithPerformanceGlitchUser</span>
+                  <span class="parameters">({Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_user, TC_ID=tc080LoginSuiteWithPerformanceGlitchUser, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc090LoginSuiteWithInValidPassword({Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginS...)">
+                  </a> <!-- tc090LoginSuiteWithInValidPassword({Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginS...) -->
+                  <span class="method-name">tc090LoginSuiteWithInValidPassword</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginSuiteWithInValidPassword, Page_Title=, Password=test123})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc100LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWi...)">
+                  </a> <!-- tc100LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWi...) -->
+                  <span class="method-name">tc100LoginSuiteWithInValidUsername</span>
+                  <span class="parameters">({Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWithInValidUsername, Page_Title=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Suite-class-passed -->
+          <div class="suite-SauceDemo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc010VerifyCartBadgeUpdates({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc010VerifyCartBadgeUpdates({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc010VerifyCartBadgeUpdates</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyCartBadgeUpdates, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc020VerifyRemoveFromProductPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc020VerifyRemoveFromProductPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc020VerifyRemoveFromProductPage</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveFromProductPage, Page_Title=Products, Sort_Type=, Item_Operations=Remove|Add to cart, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc030VerifyProductDetailPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc030VerifyProductDetailPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc030VerifyProductDetailPage</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyProductDetailPage, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc040VerifyBackToProduct({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc040VerifyBackToProduct({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc040VerifyBackToProduct</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyBackToProduct, Page_Title=Products, Sort_Type=, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc050verifySortingByNameAZ({Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=...)">
+                  </a> <!-- tc050verifySortingByNameAZ({Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=...) -->
+                  <span class="method-name">tc050verifySortingByNameAZ</span>
+                  <span class="parameters">({Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=Products, Sort_Type=az, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc060verifySortingByNameZA({Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=...)">
+                  </a> <!-- tc060verifySortingByNameZA({Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=...) -->
+                  <span class="method-name">tc060verifySortingByNameZA</span>
+                  <span class="parameters">({Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=Products, Sort_Type=za, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc070verifySortingByPriceLowToHigh({Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Pag...)">
+                  </a> <!-- tc070verifySortingByPriceLowToHigh({Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Pag...) -->
+                  <span class="method-name">tc070verifySortingByPriceLowToHigh</span>
+                  <span class="parameters">({Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Page_Title=Products, Sort_Type=lohi, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc080verifySortingByPriceHighToLow({Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Pag...)">
+                  </a> <!-- tc080verifySortingByPriceHighToLow({Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Pag...) -->
+                  <span class="method-name">tc080verifySortingByPriceHighToLow</span>
+                  <span class="parameters">({Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Page_Title=Products, Sort_Type=hilo, Item_Operations=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Suite-class-passed -->
+          <div class="suite-SauceDemo_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.saucedemo.tests.CheckoutProcessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc010VerifyUserWithBlankFirstName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithB...)">
+                  </a> <!-- tc010VerifyUserWithBlankFirstName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithB...) -->
+                  <span class="method-name">tc010VerifyUserWithBlankFirstName</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithBlankFirstName, Page_Title=, FirstName=, PostalCode=789654, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc020VerifyUserWithBlankLastName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithB...)">
+                  </a> <!-- tc020VerifyUserWithBlankLastName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithB...) -->
+                  <span class="method-name">tc020VerifyUserWithBlankLastName</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithBlankLastName, Page_Title=, FirstName=Kavin, PostalCode=789654, LastName=, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc030VerifyUserWithBlankPostalCodeName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithB...)">
+                  </a> <!-- tc030VerifyUserWithBlankPostalCodeName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithB...) -->
+                  <span class="method-name">tc030VerifyUserWithBlankPostalCodeName</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithBlankPostalCodeName, Page_Title=, FirstName=Veena, PostalCode=, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc040VerifyUserWithValidInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithV...)">
+                  </a> <!-- tc040VerifyUserWithValidInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithV...) -->
+                  <span class="method-name">tc040VerifyUserWithValidInfo</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithValidInfo, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc050VerifyCancelFromUserInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFro...)">
+                  </a> <!-- tc050VerifyCancelFromUserInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFro...) -->
+                  <span class="method-name">tc050VerifyCancelFromUserInfo</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFromUserInfo, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc060VerifyItemAndPriceDetails({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc060VerifyItemAndPriceDetails({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc060VerifyItemAndPriceDetails</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc060VerifyItemAndPriceDetails, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc070VerifyCancelFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc070VerifyCancelFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc070VerifyCancelFromCheckoutOverview</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc070VerifyCancelFromCheckoutOverview, Page_Title=Products, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc080VerifyFinishFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc080VerifyFinishFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc080VerifyFinishFromCheckoutOverview</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc080VerifyFinishFromCheckoutOverview, Page_Title=, FirstName=Veena, PostalCode=789646, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc090VerifyCheckOutMessageFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc090VerifyCheckOutMessageFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc090VerifyCheckOutMessageFromCheckoutFinishOrder</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc090VerifyCheckOutMessageFromCheckoutFinishOrder, Page_Title=, FirstName=Veena, PostalCode=789654, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc100VerifyBackHomeFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)">
+                  </a> <!-- tc100VerifyBackHomeFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...) -->
+                  <span class="method-name">tc100VerifyBackHomeFromCheckoutFinishOrder</span>
+                  <span class="parameters">({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc100VerifyBackHomeFromCheckoutFinishOrder, Page_Title=Products, FirstName=Veena, PostalCode=789652, LastName=Kavin, Password=secret_sauce})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SauceDemo_Suite-class-passed -->
+        </div> <!-- panel SauceDemo_Suite -->
+        <div panel-name="test-xml-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Project\SauceDemo Automation\src\test\resources\xml\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SauceDemo Suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.saucedemo.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.ProductTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.saucedemo.tests.CheckoutProcessTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+&lt;/suite&gt; &lt;!-- SauceDemo Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SauceDemo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SauceDemo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SauceDemo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SauceDemo_Suite');
+function tableData_SauceDemo_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc030VerifytestCartBadgeUpdatesAfterRemoval')
+data.setCell(0, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(0, 3, 12022);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc020VerifyRemoveCartItem')
+data.setCell(1, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(1, 3, 11409);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc080LoginSuiteWithPerformanceGlitchUser')
+data.setCell(2, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(2, 3, 5870);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc080VerifyFinishFromCheckoutOverview')
+data.setCell(3, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(3, 3, 3046);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc090VerifyCheckOutMessageFromCheckoutFinishOrder')
+data.setCell(4, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(4, 3, 2905);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc100VerifyBackHomeFromCheckoutFinishOrder')
+data.setCell(5, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(5, 3, 2694);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc070VerifyCancelFromCheckoutOverview')
+data.setCell(6, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(6, 3, 2338);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc060VerifyItemAndPriceDetails')
+data.setCell(7, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(7, 3, 2336);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc040VerifyBackToProduct')
+data.setCell(8, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(8, 3, 2279);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc040VerifyUserWithValidInfo')
+data.setCell(9, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(9, 3, 2244);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc050VerifyCancelFromUserInfo')
+data.setCell(10, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(10, 3, 2113);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc030VerifyUserWithBlankPostalCodeName')
+data.setCell(11, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(11, 3, 2015);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc010VerifyUserWithBlankFirstName')
+data.setCell(12, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(12, 3, 1973);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc080verifySortingByPriceHighToLow')
+data.setCell(13, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(13, 3, 1934);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc020VerifyUserWithBlankLastName')
+data.setCell(14, 2, 'com.saucedemo.tests.CheckoutProcessTest')
+data.setCell(14, 3, 1898);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc010VerifyCartItems')
+data.setCell(15, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(15, 3, 1653);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc040VerifyContinueShoppingNavigation')
+data.setCell(16, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(16, 3, 1534);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc030VerifyProductDetailPage')
+data.setCell(17, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(17, 3, 1391);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc020VerifyRemoveFromProductPage')
+data.setCell(18, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(18, 3, 1353);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc050VerifyCheckoutNavigation')
+data.setCell(19, 2, 'com.saucedemo.tests.CartTest')
+data.setCell(19, 3, 1295);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc010VerifyCartBadgeUpdates')
+data.setCell(20, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(20, 3, 1151);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc060verifySortingByNameZA')
+data.setCell(21, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(21, 3, 1031);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc050verifySortingByNameAZ')
+data.setCell(22, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(22, 3, 1030);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'tc070verifySortingByPriceLowToHigh')
+data.setCell(23, 2, 'com.saucedemo.tests.ProductTest')
+data.setCell(23, 3, 1027);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'tc010LoginSuiteWithValidCredential')
+data.setCell(24, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(24, 3, 867);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'tc070LoginSuiteWithProblemUser')
+data.setCell(25, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(25, 3, 860);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'tc060LoginSuiteWithLockedOutUser')
+data.setCell(26, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(26, 3, 734);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'tc020LoginSuiteWithInValidUsername')
+data.setCell(27, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(27, 3, 700);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'tc090LoginSuiteWithInValidPassword')
+data.setCell(28, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(28, 3, 660);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'tc100LoginSuiteWithInValidUsername')
+data.setCell(29, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(29, 3, 649);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'tc050LoginSuiteWithBlankPassword')
+data.setCell(30, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(30, 3, 632);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'tc040LoginSuiteWithBlankUsername')
+data.setCell(31, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(31, 3, 576);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'tc030LoginSuiteWithBlankCredential')
+data.setCell(32, 2, 'com.saucedemo.tests.LoginTest')
+data.setCell(32, 3, 537);
+window.suiteTableData['SauceDemo_Suite']= { tableData: data, tableDiv: 'times-div-SauceDemo_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SauceDemo_Suite">
+              </div> <!-- times-div-SauceDemo_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SauceDemo Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.saucedemo.tests.CartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+                <span class="ignored-method-name">tearDownReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.saucedemo.tests.ProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+                <span class="ignored-method-name">tearDownReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.saucedemo.tests.CheckoutProcessTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDownReport</span>
+                <br/>
+                <span class="ignored-method-name">setupReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SauceDemo_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc010LoginSuiteWithValidCredential(java.util.HashMap))</span>
+                <span class="method-start">2015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc010LoginSuiteWithValidCredential({Description=Verify Sauce demo user with valid credential, UserName=standard_user, TC_ID=tc010LoginS...)</span>
+                <span class="method-start">6940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc010LoginSuiteWithValidCredential status=SUCCESS method=LoginTest.tc010LoginSuiteW...)</span>
+                <span class="method-start">7828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc020LoginSuiteWithInValidUsername(java.util.HashMap))</span>
+                <span class="method-start">8365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc020LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid credential, UserName=secret_sauce, TC_ID=tc020Login...)</span>
+                <span class="method-start">12170 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc020LoginSuiteWithInValidUsername status=SUCCESS method=LoginTest.tc020LoginSuiteW...)</span>
+                <span class="method-start">12874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc030LoginSuiteWithBlankCredential(java.util.HashMap))</span>
+                <span class="method-start">13356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc030LoginSuiteWithBlankCredential({Description=Verify Sauce demo user with blank credential, UserName=, TC_ID=tc030LoginSuiteWithBlank...)</span>
+                <span class="method-start">16562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc030LoginSuiteWithBlankCredential status=SUCCESS method=LoginTest.tc030LoginSuiteW...)</span>
+                <span class="method-start">17104 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc040LoginSuiteWithBlankUsername(java.util.HashMap))</span>
+                <span class="method-start">17616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc040LoginSuiteWithBlankUsername({Description=Verify Sauce demo user with blank user name credential, UserName=, TC_ID=tc040LoginSuit...)</span>
+                <span class="method-start">20746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc040LoginSuiteWithBlankUsername status=SUCCESS method=LoginTest.tc040LoginSuiteWit...)</span>
+                <span class="method-start">21325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc050LoginSuiteWithBlankPassword(java.util.HashMap))</span>
+                <span class="method-start">21775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc050LoginSuiteWithBlankPassword({Description=Verify Sauce demo user with blank password credential, UserName=standard_user, TC_ID=tc...)</span>
+                <span class="method-start">24968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc050LoginSuiteWithBlankPassword status=SUCCESS method=LoginTest.tc050LoginSuiteWit...)</span>
+                <span class="method-start">25604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc060LoginSuiteWithLockedOutUser(java.util.HashMap))</span>
+                <span class="method-start">26272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc060LoginSuiteWithLockedOutUser({Description=Verify Sauce demo locked out user functionality, UserName=locked_out_user, TC_ID=tc060L...)</span>
+                <span class="method-start">29600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc060LoginSuiteWithLockedOutUser status=SUCCESS method=LoginTest.tc060LoginSuiteWit...)</span>
+                <span class="method-start">30338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc070LoginSuiteWithProblemUser(java.util.HashMap))</span>
+                <span class="method-start">30860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc070LoginSuiteWithProblemUser({Description=Verify Sauce demo problem user functionality, UserName=problem_user, TC_ID=tc070LoginSu...)</span>
+                <span class="method-start">34492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc070LoginSuiteWithProblemUser status=SUCCESS method=LoginTest.tc070LoginSuiteWithP...)</span>
+                <span class="method-start">35354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc080LoginSuiteWithPerformanceGlitchUser(java.util.HashMap...)</span>
+                <span class="method-start">35822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc080LoginSuiteWithPerformanceGlitchUser({Description=Verify Sauce demo performance glitch user functionality, UserName=performance_glitch_us...)</span>
+                <span class="method-start">39304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc080LoginSuiteWithPerformanceGlitchUser status=SUCCESS method=LoginTest.tc080Login...)</span>
+                <span class="method-start">45180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc090LoginSuiteWithInValidPassword(java.util.HashMap))</span>
+                <span class="method-start">45722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc090LoginSuiteWithInValidPassword({Description=Verify Sauce demo user with invalid password, UserName=standard_user, TC_ID=tc090LoginS...)</span>
+                <span class="method-start">49408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc090LoginSuiteWithInValidPassword status=SUCCESS method=LoginTest.tc090LoginSuiteW...)</span>
+                <span class="method-start">50071 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.LoginTest.tc100LoginSuiteWithInValidUsername(java.util.HashMap))</span>
+                <span class="method-start">50582 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc100LoginSuiteWithInValidUsername({Description=Verify Sauce demo user with invalid username, UserName=test123, TC_ID=tc100LoginSuiteWi...)</span>
+                <span class="method-start">53935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc100LoginSuiteWithInValidUsername status=SUCCESS method=LoginTest.tc100LoginSuiteW...)</span>
+                <span class="method-start">54587 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc010VerifyCartBadgeUpdates(java.util.HashMap))</span>
+                <span class="method-start">55073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc010VerifyCartBadgeUpdates({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">58293 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc010VerifyCartBadgeUpdates status=SUCCESS method=ProductTest.tc010VerifyCartBadgeU...)</span>
+                <span class="method-start">59447 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc020VerifyRemoveFromProductPage(java.util.HashMap))</span>
+                <span class="method-start">59877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc020VerifyRemoveFromProductPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">63088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc020VerifyRemoveFromProductPage status=SUCCESS method=ProductTest.tc020VerifyRemov...)</span>
+                <span class="method-start">64443 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc030VerifyProductDetailPage(java.util.HashMap))</span>
+                <span class="method-start">64818 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc030VerifyProductDetailPage({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">68041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc030VerifyProductDetailPage status=SUCCESS method=ProductTest.tc030VerifyProductDe...)</span>
+                <span class="method-start">69433 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc040VerifyBackToProduct(java.util.HashMap))</span>
+                <span class="method-start">69970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc040VerifyBackToProduct({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">72457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc040VerifyBackToProduct status=SUCCESS method=ProductTest.tc040VerifyBackToProduct...)</span>
+                <span class="method-start">74741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc050verifySortingByNameAZ(java.util.HashMap))</span>
+                <span class="method-start">75290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc050verifySortingByNameAZ({Product_Names=, Description=, UserName=standard_user, TC_ID=tc050verifySortingByNameAZ, Page_Title=...)</span>
+                <span class="method-start">78676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc050verifySortingByNameAZ status=SUCCESS method=ProductTest.tc050verifySortingByNa...)</span>
+                <span class="method-start">79708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc060verifySortingByNameZA(java.util.HashMap))</span>
+                <span class="method-start">80169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc060verifySortingByNameZA({Product_Names=, Description=, UserName=standard_user, TC_ID=tc060verifySortingByNameZA, Page_Title=...)</span>
+                <span class="method-start">83318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc060verifySortingByNameZA status=SUCCESS method=ProductTest.tc060verifySortingByNa...)</span>
+                <span class="method-start">84351 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc070verifySortingByPriceLowToHigh(java.util.HashMap))</span>
+                <span class="method-start">84717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc070verifySortingByPriceLowToHigh({Product_Names=, Description=, UserName=standard_user, TC_ID=tc070verifySortingByPriceLowToHigh, Pag...)</span>
+                <span class="method-start">87927 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc070verifySortingByPriceLowToHigh status=SUCCESS method=ProductTest.tc070verifySor...)</span>
+                <span class="method-start">88956 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.ProductTest.tc080verifySortingByPriceHighToLow(java.util.HashMap))</span>
+                <span class="method-start">89327 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc080verifySortingByPriceHighToLow({Product_Names=, Description=, UserName=standard_user, TC_ID=tc080verifySortingByPriceHighToLow, Pag...)</span>
+                <span class="method-start">91739 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc080verifySortingByPriceHighToLow status=SUCCESS method=ProductTest.tc080verifySor...)</span>
+                <span class="method-start">93675 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CartTest.tc010VerifyCartItems(java.util.HashMap))</span>
+                <span class="method-start">94200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc010VerifyCartItems({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">98072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc010VerifyCartItems status=SUCCESS method=CartTest.tc010VerifyCartItems(java.util....)</span>
+                <span class="method-start">99727 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CartTest.tc020VerifyRemoveCartItem(java.util.HashMap))</span>
+                <span class="method-start">100206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc020VerifyRemoveCartItem({Product_Names=Sauce Labs Bike Light, Description=, UserName=standard_user, TC_ID=tc020VerifyRemoveC...)</span>
+                <span class="method-start">103703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc020VerifyRemoveCartItem status=SUCCESS method=CartTest.tc020VerifyRemoveCartItem(...)</span>
+                <span class="method-start">115114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CartTest.tc030VerifytestCartBadgeUpdatesAfterRemoval(java.util.HashM...)</span>
+                <span class="method-start">115715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc030VerifytestCartBadgeUpdatesAfterRemoval({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">119326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc030VerifytestCartBadgeUpdatesAfterRemoval status=SUCCESS method=CartTest.tc030Ver...)</span>
+                <span class="method-start">131351 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CartTest.tc040VerifyContinueShoppingNavigation(java.util.HashMap))</span>
+                <span class="method-start">132018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc040VerifyContinueShoppingNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyContinueS...)</span>
+                <span class="method-start">136441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc040VerifyContinueShoppingNavigation status=SUCCESS method=CartTest.tc040VerifyCon...)</span>
+                <span class="method-start">137979 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CartTest.tc050VerifyCheckoutNavigation(java.util.HashMap))</span>
+                <span class="method-start">138516 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc050VerifyCheckoutNavigation({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCheckoutN...)</span>
+                <span class="method-start">142022 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc050VerifyCheckoutNavigation status=SUCCESS method=CartTest.tc050VerifyCheckoutNav...)</span>
+                <span class="method-start">143319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.CheckoutProcessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc010VerifyUserWithBlankFirstName(java.util.Hash...)</span>
+                <span class="method-start">143710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc010VerifyUserWithBlankFirstName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc010VerifyUserWithB...)</span>
+                <span class="method-start">147033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc010VerifyUserWithBlankFirstName status=SUCCESS method=CheckoutProcessTest.tc010Ve...)</span>
+                <span class="method-start">149008 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc020VerifyUserWithBlankLastName(java.util.HashM...)</span>
+                <span class="method-start">149432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc020VerifyUserWithBlankLastName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc020VerifyUserWithB...)</span>
+                <span class="method-start">152841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc020VerifyUserWithBlankLastName status=SUCCESS method=CheckoutProcessTest.tc020Ver...)</span>
+                <span class="method-start">154742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc030VerifyUserWithBlankPostalCodeName(java.util...)</span>
+                <span class="method-start">155102 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc030VerifyUserWithBlankPostalCodeName({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc030VerifyUserWithB...)</span>
+                <span class="method-start">158440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc030VerifyUserWithBlankPostalCodeName status=SUCCESS method=CheckoutProcessTest.tc...)</span>
+                <span class="method-start">160457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc040VerifyUserWithValidInfo(java.util.HashMap))</span>
+                <span class="method-start">160822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc040VerifyUserWithValidInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc040VerifyUserWithV...)</span>
+                <span class="method-start">164486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc040VerifyUserWithValidInfo status=SUCCESS method=CheckoutProcessTest.tc040VerifyU...)</span>
+                <span class="method-start">166731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc050VerifyCancelFromUserInfo(java.util.HashMap))</span>
+                <span class="method-start">167175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc050VerifyCancelFromUserInfo({Product_Names=Sauce Labs Backpack, Description=, UserName=standard_user, TC_ID=tc050VerifyCancelFro...)</span>
+                <span class="method-start">170641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc050VerifyCancelFromUserInfo status=SUCCESS method=CheckoutProcessTest.tc050Verify...)</span>
+                <span class="method-start">172756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc060VerifyItemAndPriceDetails(java.util.HashMap...)</span>
+                <span class="method-start">173204 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc060VerifyItemAndPriceDetails({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">176495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc060VerifyItemAndPriceDetails status=SUCCESS method=CheckoutProcessTest.tc060Verif...)</span>
+                <span class="method-start">178833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc070VerifyCancelFromCheckoutOverview(java.util....)</span>
+                <span class="method-start">179201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc070VerifyCancelFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">182497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc070VerifyCancelFromCheckoutOverview status=SUCCESS method=CheckoutProcessTest.tc0...)</span>
+                <span class="method-start">184837 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc080VerifyFinishFromCheckoutOverview(java.util....)</span>
+                <span class="method-start">185209 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc080VerifyFinishFromCheckoutOverview({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">188473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc080VerifyFinishFromCheckoutOverview status=SUCCESS method=CheckoutProcessTest.tc0...)</span>
+                <span class="method-start">191522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc090VerifyCheckOutMessageFromCheckoutFinishOrde...)</span>
+                <span class="method-start">192071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc090VerifyCheckOutMessageFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">195730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc090VerifyCheckOutMessageFromCheckoutFinishOrder status=SUCCESS method=CheckoutPro...)</span>
+                <span class="method-start">198637 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void com.saucedemo.tests.CheckoutProcessTest.tc100VerifyBackHomeFromCheckoutFinishOrder(java....)</span>
+                <span class="method-start">199165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc100VerifyBackHomeFromCheckoutFinishOrder({Product_Names=Sauce Labs Bike Light|Sauce Labs Backpack, Description=, UserName=standard_user, TC_I...)</span>
+                <span class="method-start">202794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=tc100VerifyBackHomeFromCheckoutFinishOrder status=SUCCESS method=CheckoutProcessTes...)</span>
+                <span class="method-start">205494 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownReport</span>
+                <span class="method-start">205945 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

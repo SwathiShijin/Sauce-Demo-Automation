@@ -1,0 +1,13 @@
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\base\BaseTest.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\base\DriverFactory.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\base\SauceDemoUtils.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\pages\CartPage.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\pages\CheckoutFinishOrderPage.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\pages\CheckoutOverviewPage.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\pages\CheckoutUserInfoPage.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\pages\LoginPage.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\pages\ProductsPage.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\tests\CartTest.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\tests\CheckoutProcessTest.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\tests\LoginTest.java
+D:\Project\SauceDemo Automation\src\test\java\com\saucedemo\tests\ProductTest.java
